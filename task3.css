@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+.con {
+    width: 85%;
+    margin: 0 auto;
+
+}
+/**/
+
+
+.nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.nav li:hover {
+    color: #8e7754;
+    border-top: solid 2px white;
+    cursor: alias;
+}
+
+
+.parent .header {
+    color: white;
+    background-image: url(media/img-head.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parent .header .content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    overflow: auto;
+
+}
+
+.parent .header .content p {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.parent .header .content h1 {
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.parent .header .content .btn {
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+}
+
+.parent .header .content .bt1 {
+    background-color: transparent;
+    border: solid white 2px;
+    margin-right: 30px;
+
+}
+
+.parent .header .content .bt2 {
+    background-color: #8e7754;
+    border: #8e7754 solid 2px;
+}
+
+.clr {
+    clear: both;
+}
+
+.d1 {
+    background-color:antiquewhite;
+    height: 400px;
+}
+
+.d1 .sss {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding: 20px;
+}
